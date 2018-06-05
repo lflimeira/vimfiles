@@ -1,6 +1,22 @@
 set t_Co=256
 colorscheme wombat256mod
 
+" Allow `backspace` in insert mode
+set backspace=indent
+set backspace+=eol
+set backspace+=start
+
+" Set local directories for backup and swap files
+set backupdir=~/.vim/backups
+set directory=~/.vim/swaps
+set undodir=~/.vim/undo
+
+" Display incomplete commands
+set showcmd
+
+" Complete files like a shell
+set wildmode=list:longest
+
 set nu
 set rnu
 set cursorline

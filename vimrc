@@ -11,6 +11,7 @@ Plug 'maxbrunsfeld/vim-yankstack'
 Plug 'teranex/jk-jumps.vim'
 Plug 'pangloss/vim-javascript'
 Plug 'mileszs/ack.vim'
+Plug 'vim-syntastic/syntastic'
 call plug#end()
 
 let mapleader = ' '

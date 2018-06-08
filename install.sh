@@ -88,4 +88,8 @@ then
     rm ~/.vim/install.sh
 
     vim -c "PlugInstall|:qa"
+
+    mkdir ~/.vim/backups
+    mkdir ~/.vim/swaps
+    mkdir ~/.vim/undo
 fi
